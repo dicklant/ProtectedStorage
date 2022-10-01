@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 741100374,
-        "Kind": "Components.Component",
-        "Name": "ProtectedStorage.Pages.Counter",
-        "AssemblyName": "ProtectedStorage",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ProtectedStorage.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 427901188,
-        "Kind": "Components.Component",
-        "Name": "ProtectedStorage.Pages.Counter",
-        "AssemblyName": "ProtectedStorage",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProtectedStorage.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ProtectedStorage.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 319163495,
         "Kind": "Components.Component",
         "Name": "ProtectedStorage.Pages.FetchData",
@@ -78,6 +45,72 @@
         }
       },
       {
+        "HashCode": -604423890,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.LocalStorageBase",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LocalStorageBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.LocalStorageBase"
+        }
+      },
+      {
+        "HashCode": 740147766,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.LocalStorageBase",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProtectedStorage.Pages.LocalStorageBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.LocalStorageBase",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 741100374,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.Counter",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 427901188,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.Counter",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProtectedStorage.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1472048792,
         "Kind": "Components.Component",
         "Name": "ProtectedStorage.Pages.Index",
@@ -107,6 +140,105 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ProtectedStorage.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -757620237,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.SessionStorageBase",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SessionStorageBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.SessionStorageBase"
+        }
+      },
+      {
+        "HashCode": -1044995024,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.SessionStorageBase",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProtectedStorage.Pages.SessionStorageBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.SessionStorageBase",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 362057860,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.LocalStorage",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LocalStorage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.LocalStorage"
+        }
+      },
+      {
+        "HashCode": 808415779,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.LocalStorage",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProtectedStorage.Pages.LocalStorage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.LocalStorage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1571212457,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.SessionStorage",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SessionStorage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.SessionStorage"
+        }
+      },
+      {
+        "HashCode": -877954318,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.SessionStorage",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProtectedStorage.Pages.SessionStorage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.SessionStorage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16622,6 +16754,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\ProtectedStorage\\Pages\\LocalStorage.razor",
+      "TargetPath": "Pages\\LocalStorage.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\ProtectedStorage\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
@@ -16664,6 +16801,11 @@
     {
       "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\ProtectedStorage\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\ProtectedStorage\\Pages\\SessionStorage.razor",
+      "TargetPath": "Pages\\SessionStorage.razor",
       "FileKind": "component"
     }
   ],
