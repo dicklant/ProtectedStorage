@@ -111,39 +111,6 @@
         }
       },
       {
-        "HashCode": 1472048792,
-        "Kind": "Components.Component",
-        "Name": "ProtectedStorage.Pages.Index",
-        "AssemblyName": "ProtectedStorage",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ProtectedStorage.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1990125468,
-        "Kind": "Components.Component",
-        "Name": "ProtectedStorage.Pages.Index",
-        "AssemblyName": "ProtectedStorage",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProtectedStorage.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ProtectedStorage.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -757620237,
         "Kind": "Components.Component",
         "Name": "ProtectedStorage.Pages.SessionStorageBase",
@@ -173,39 +140,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ProtectedStorage.Pages.SessionStorageBase",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 362057860,
-        "Kind": "Components.Component",
-        "Name": "ProtectedStorage.Pages.LocalStorage",
-        "AssemblyName": "ProtectedStorage",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LocalStorage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ProtectedStorage.Pages.LocalStorage"
-        }
-      },
-      {
-        "HashCode": 808415779,
-        "Kind": "Components.Component",
-        "Name": "ProtectedStorage.Pages.LocalStorage",
-        "AssemblyName": "ProtectedStorage",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProtectedStorage.Pages.LocalStorage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ProtectedStorage.Pages.LocalStorage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -243,6 +177,39 @@
         }
       },
       {
+        "HashCode": 1433386902,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.StorageOnDemand",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "StorageOnDemand"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.StorageOnDemand"
+        }
+      },
+      {
+        "HashCode": -1010071475,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.StorageOnDemand",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProtectedStorage.Pages.StorageOnDemand"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.StorageOnDemand",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1571212457,
         "Kind": "Components.Component",
         "Name": "ProtectedStorage.Pages.SessionStorage",
@@ -276,35 +243,68 @@
         }
       },
       {
-        "HashCode": 1433386902,
+        "HashCode": 1472048792,
         "Kind": "Components.Component",
-        "Name": "ProtectedStorage.Pages.StorageOnDemand",
+        "Name": "ProtectedStorage.Pages.Index",
         "AssemblyName": "ProtectedStorage",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "StorageOnDemand"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ProtectedStorage.Pages.StorageOnDemand"
+          "Common.TypeName": "ProtectedStorage.Pages.Index"
         }
       },
       {
-        "HashCode": -1010071475,
+        "HashCode": 1990125468,
         "Kind": "Components.Component",
-        "Name": "ProtectedStorage.Pages.StorageOnDemand",
+        "Name": "ProtectedStorage.Pages.Index",
         "AssemblyName": "ProtectedStorage",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ProtectedStorage.Pages.StorageOnDemand"
+            "TagName": "ProtectedStorage.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ProtectedStorage.Pages.StorageOnDemand",
+          "Common.TypeName": "ProtectedStorage.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 362057860,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.LocalStorage",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LocalStorage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.LocalStorage"
+        }
+      },
+      {
+        "HashCode": 808415779,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.LocalStorage",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProtectedStorage.Pages.LocalStorage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.LocalStorage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

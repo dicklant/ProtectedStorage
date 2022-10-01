@@ -12,7 +12,6 @@ public class OnDemandStorageBase : ComponentBase
     protected ProtectedLocalStorage? ProtectedLocalStore { get; set; }
 
     protected int LocalCounter { get; set; }
-    protected string TextLocalCounter { get; set; }
     protected int SessionCounter { get; set; }
 
     /*protected override async Task OnInitializedAsync()
@@ -28,17 +27,19 @@ public class OnDemandStorageBase : ComponentBase
     {
         if (firstime)
         {
-            System.Console.WriteLine("Firstime");
+            System.Console.WriteLine("OnAfterRenderAsync Firstime");
+            var result = await ProtectedSessionStore.GetAsync<int>("SessionCounter");
+            SessionCounter = result.Success ? result.Value : 0;
+            System.Console.WriteLine("End GetAsync Session");
 
+            System.Console.WriteLine("Start GetAsync Local");
             var result2 = await ProtectedLocalStore.GetAsync<int>("LocalCounter");
             LocalCounter = result2.Success ? result2.Value : 0;
-
-            System.Console.WriteLine(LocalCounter);
 
             StateHasChanged();
         }
         else
-            System.Console.WriteLine("Not Firstime");
+            System.Console.WriteLine("OnAfterRenderAsync NOT Firstime");
     }
 
     protected override void OnAfterRender(bool firstime)
@@ -51,13 +52,15 @@ public class OnDemandStorageBase : ComponentBase
 
     protected async void btnLoadStorage()
     {
+        System.Console.WriteLine("Start GetAsync Session");
         var result = await ProtectedSessionStore.GetAsync<int>("SessionCounter");
         SessionCounter = result.Success ? result.Value : 0;
+        System.Console.WriteLine("End GetAsync Session");
 
+        System.Console.WriteLine("Start GetAsync Local");
         var result2 = await ProtectedLocalStore.GetAsync<int>("LocalCounter");
         LocalCounter = result2.Success ? result2.Value : 0;
-
-        TextLocalCounter = LocalCounter.ToString();
+        System.Console.WriteLine("End GetAsync Local");
 
         await InvokeAsync(StateHasChanged);
     }
@@ -71,5 +74,6 @@ public class OnDemandStorageBase : ComponentBase
     protected async void btnRefresh()
     {
         await InvokeAsync(StateHasChanged);
+        //StateHasChanged();
     }
 }
