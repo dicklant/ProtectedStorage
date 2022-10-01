@@ -1,0 +1,16 @@
+@page "/onDemandStorage"
+
+@inherits OnDemandStorageBase;
+
+<PageTitle>On demand Storage</PageTitle>
+
+<h1>On Demand Storage</h1>
+
+<p>Le compteur local vaut :</p>
+<input type="text" @bind = "LocalCounter" />
+<p>Le compteur Session vaut :</p>
+<input type="text" @bind = "SessionCounter"/>
+
+<button @onclick="btnLoadStorage">Load</button>
+<button @onclick="btnSaveStorage">Save</button>
+<button @onclick="btnRefresh">Refresh</button>

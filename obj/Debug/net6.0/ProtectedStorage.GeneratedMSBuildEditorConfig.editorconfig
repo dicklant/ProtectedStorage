@@ -39,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vzc2lvblN0b3JhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dickl/Documents/vscode/blazor/ProtectedStorage/Pages/StorageOnDemand.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmFnZU9uRGVtYW5kLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dickl/Documents/vscode/blazor/ProtectedStorage/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

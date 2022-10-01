@@ -210,6 +210,39 @@
         }
       },
       {
+        "HashCode": -107590372,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.OnDemandStorageBase",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OnDemandStorageBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.OnDemandStorageBase"
+        }
+      },
+      {
+        "HashCode": 1043678739,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.OnDemandStorageBase",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProtectedStorage.Pages.OnDemandStorageBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.OnDemandStorageBase",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1571212457,
         "Kind": "Components.Component",
         "Name": "ProtectedStorage.Pages.SessionStorage",
@@ -239,6 +272,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ProtectedStorage.Pages.SessionStorage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1433386902,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.StorageOnDemand",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "StorageOnDemand"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.StorageOnDemand"
+        }
+      },
+      {
+        "HashCode": -1010071475,
+        "Kind": "Components.Component",
+        "Name": "ProtectedStorage.Pages.StorageOnDemand",
+        "AssemblyName": "ProtectedStorage",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProtectedStorage.Pages.StorageOnDemand"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ProtectedStorage.Pages.StorageOnDemand",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16752,6 +16818,11 @@
       "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\ProtectedStorage\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\ProtectedStorage\\Pages\\StorageOnDemand.razor",
+      "TargetPath": "Pages\\StorageOnDemand.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\ProtectedStorage\\Pages\\LocalStorage.razor",
